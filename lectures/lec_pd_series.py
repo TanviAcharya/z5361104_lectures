@@ -50,7 +50,7 @@ print(prc0)
 
 # ... the `ser` series
 prc1  = ser['2020-01-02']
-print(prc1)                     
+print(prc1)                    
 
 # ---------------------------------------------------------------------------- 
 #   Slicing series
