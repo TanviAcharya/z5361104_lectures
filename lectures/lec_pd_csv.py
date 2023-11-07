@@ -105,10 +105,10 @@ print(as_df)
 # Using the ser_no_name created above
 # Save the contents without column headers
 
-#ser_no_name.to_csv(QAN_CLOSE_CSV, header=False)
+ser_no_name.to_csv(QAN_CLOSE_CSV, header=False)
 ## Read it back 
-#as_df = pd.read_csv(QAN_CLOSE_CSV, header=None, names=["Date", "Close"], index_col=0)
-#print(as_df)
+as_df = pd.read_csv(QAN_CLOSE_CSV, header=None, names=["Date", "Close"], index_col=0)
+print(as_df)
 #
 
 
